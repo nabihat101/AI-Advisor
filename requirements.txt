@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+requests
+beautifulsoup4
+chromadb
+groq
+python-dotenv
+jinja2
+pytest
