@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UofT AI Advisor</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>UofT AI Advisor</h1>
+
+        <p class="subtitle">
+            Your AI-powered assistant for exploring UofT courses.
+        </p>
+
+        <div class="chat-box">
+
+            <textarea
+                id="question"
+                placeholder="Ask something like: I'm interested in AI. What courses should I consider?"
+            ></textarea>
+
+            <button id="ask-button">
+                Ask Advisor
+            </button>
+
+        </div>
+
+        <div id="loading" class="loading hidden">
+            Thinking...
+        </div>
+
+        <div id="answer-container" class="hidden">
+
+            <h2>Advisor Response</h2>
+
+            <div id="answer" class="answer"></div>
+
+            <h3>Sources</h3>
+
+            <div id="sources"></div>
+
+        </div>
+
+    </main>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
