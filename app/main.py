@@ -49,6 +49,7 @@ def search_courses(query: str):
             Course.code.contains(query.upper())
             | Course.name.contains(query)
             | Course.description.contains(query)
+            | Course.topics.contains(query)
         )
         .all()
     )
