@@ -12,7 +12,7 @@ This is an AI-powered academic planning assistant for University of Toronto Comp
 * Provides links to official UofT course pages as sources
 * FastAPI backend with a browser-based frontend
 * Automated tests using pytest
-## Tech Stack
+## Tech 
 
 **Backend**
 
